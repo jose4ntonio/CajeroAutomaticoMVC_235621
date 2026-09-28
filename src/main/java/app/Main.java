@@ -17,7 +17,6 @@ import javax.swing.UIManager;
  */
 public class Main {
     public static void main(String[] args) {
-        // Look & Feel del sistema
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception ignored) {}
@@ -37,6 +36,7 @@ public class Main {
 
             // 5. Hacer visible la GUI
             vista.setVisible(true);
-        });
+        }); 
+       
     }
 }
